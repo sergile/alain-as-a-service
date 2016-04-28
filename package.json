@@ -1,0 +1,40 @@
+{
+  "name": "alain-as-a-service",
+  "version": "0.1.0",
+  "description": "alain REST API http://alainasaservice.com",
+  "main": "server.js",
+  "scripts": {
+    "prestart": "mkdir -p log",
+    "forever": "npm run prestart && forever server.js",
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergile/alain-as-a-service.git"
+  },
+  "keywords": [
+    "alain",
+    "sergile",
+    "marketing",
+    "product",
+    "name",
+    "app",
+    "fun",
+    "yusss!"
+  ],
+  "author": "nexdrew",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sergile/alain-as-a-service/issues"
+  },
+  "homepage": "https://github.com/sergile/alain-as-a-service#readme",
+  "dependencies": {
+    "alain": "^0.3.0",
+    "bunyan": "^1.8.1",
+    "restify": "^4.0.4"
+  },
+  "devDependencies": {
+    "forever": "^0.15.1",
+    "standard": "^6.0.8"
+  }
+}
