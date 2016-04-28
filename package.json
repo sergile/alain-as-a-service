@@ -6,7 +6,8 @@
   "scripts": {
     "prestart": "mkdir -p log",
     "forever": "npm run prestart && forever server.js",
-    "test": "standard"
+    "test": "standard",
+    "release": "standard-version"
   },
   "repository": {
     "type": "git",
@@ -35,6 +36,7 @@
   },
   "devDependencies": {
     "forever": "^0.15.1",
-    "standard": "^6.0.8"
+    "standard": "^6.0.8",
+    "standard-version": "^2.1.2"
   }
 }
