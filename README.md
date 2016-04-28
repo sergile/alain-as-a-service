@@ -4,7 +4,7 @@
 
 Get magical product names from this ~~convoluted~~ simple REST API!
 
-Will eventually be accessible here: http://alainasaservice.com
+Public API can be found at http://alainasaservice.com
 
 ## API
 
