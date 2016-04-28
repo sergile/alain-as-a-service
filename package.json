@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "prestart": "mkdir -p log",
-    "forever": "npm run prestart && forever server.js",
+    "forever": "npm run prestart && forever start server.js",
+    "halt": "forever stop server.js",
     "test": "standard",
     "release": "standard-version"
   },

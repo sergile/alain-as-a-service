@@ -46,7 +46,13 @@ Currently redirects to `/v1`.
 
 ## Running the Server
 
-Requires Node 4+. Clone this repo and install dependencies with `npm i`. Run the server with either `npm start` or `npm run forever`. Binds to port 8080.
+Requires Node 4+. Clone this repo and install dependencies with `npm i`.
+
+Run and stop the server in the foreground with `npm start` and <kbd>ctrl</kbd>+<kbd>c</kbd>.
+
+Run and stop the server in the background with `npm run forever` and `npm run halt`.
+
+Binds to port 8080.
 
 "Application" logging goes to stdout and is unstructured.
 
