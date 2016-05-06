@@ -31,13 +31,13 @@
   },
   "homepage": "https://github.com/sergile/alain-as-a-service#readme",
   "dependencies": {
-    "alain": "^0.3.0",
+    "alain": "^0.4.0",
     "bunyan": "^1.8.1",
     "restify": "^4.0.4"
   },
   "devDependencies": {
     "forever": "^0.15.1",
-    "standard": "^6.0.8",
+    "standard": "^7.0.1",
     "standard-version": "^2.1.2"
   }
 }
