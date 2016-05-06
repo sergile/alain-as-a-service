@@ -1,6 +1,6 @@
 {
   "name": "alain-as-a-service",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "alain REST API http://alainasaservice.com",
   "main": "server.js",
   "scripts": {
